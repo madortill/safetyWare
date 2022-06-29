@@ -256,11 +256,13 @@ body {
 
 .leftGloveItem.droped {
     width: 10vw;
+    padding-top: 2vh;
     padding-right: 6vw;
 }
 
 .rightGloveItem.droped {
     width: 7vw;
+    padding-top: 2vh;
     padding-right: 2vw;
 }
 
