@@ -161,6 +161,7 @@ body {
     width: 15vw;
     height: 3vh;
     text-align: center;
+    margin-top: 1em;
 }
 
 .dropDownArrow {
@@ -193,36 +194,36 @@ body {
 
 .vestDrop {
     width: 31vw;
-    height: 18vh;
-    top: 16vh;
+    height: 32vw;
+    top: 28vw;
     right: 18vw;
 }
 
 .kneePadsDrop {
     width: 31vw;
-    height: 9vh;
-    top: 47vh;
+    height: 16vw;
+    top: 84vw;
     right: 24vw;
 }
 
 .helmetDrop {
     width: 19vw;
-    height: 15vh;
-    top: 4vh;
+    height: 25vw;
+    top: 7vw;
     right: 24.5vw;
 }
 
 .leftGloveDrop {
     width: 20vw;
-    height: 10vh;
-    top: 33vh;
+    height: 18vw;
+    top: 58.5vw;
     right: 46.5vw;
 }
 
 .rightGloveDrop {
     width: 18vw;
-    height: 11vh;
-    top: 35.2vh;
+    height: 15vw;
+    top: 62.5vw;
     right: 2.2vw;
 }
 
