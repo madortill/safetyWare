@@ -188,43 +188,52 @@ body {
 } */
 
 /* sort to groups ------------------------------------------------------------------------------*/
+.dropContainer {
+    position: absolute;
+    width: 61vw;
+    height: 62vh;
+    top: 4vh;
+    right: 6vw;
+}
+
 .drop {
     position: absolute;
+    /* background-color: aqua; */
 }
 
 .vestDrop {
     width: 31vw;
-    height: 32vw;
-    top: 28vw;
-    right: 18vw;
+    height: 18vh;
+    top: 11.5vh;
+    right: 14vw;
 }
 
 .kneePadsDrop {
     width: 31vw;
-    height: 16vw;
-    top: 84vw;
-    right: 24vw;
+    height: 9vh;
+    top: 43vh;
+    right: 20vw;
 }
 
 .helmetDrop {
     width: 19vw;
-    height: 25vw;
-    top: 7vw;
-    right: 24.5vw;
+    height: 15vh;
+    top: 0vh;
+    right: 20vw;
 }
 
 .leftGloveDrop {
     width: 20vw;
-    height: 18vw;
-    top: 58.5vw;
-    right: 46.5vw;
+    height: 10vh;
+    top: 29vh;
+    right: 42vw;
 }
 
 .rightGloveDrop {
     width: 18vw;
-    height: 15vw;
-    top: 62.5vw;
-    right: 2.2vw;
+    height: 11vh;
+    top: 31.2vh;
+    right: 0;
 }
 
 .vestItem.droped {
@@ -248,7 +257,7 @@ body {
 .rightGloveItem.droped {
     width: 7vw;
     padding-top: 3vh;
-    padding-right: 5vw;
+    padding-right: 2vw;
 }
 
 /* tools -----------------------------------------------------------------------------*/
