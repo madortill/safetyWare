@@ -195,13 +195,13 @@ const startGame = () => {
 --------------------------------------------------------------
 Description: */
 const checkForWin = () => {
-    // if(nDropedItems === 5) {
-    //     document.querySelector(".gamePage").classList.add("hidden");
-    //     document.querySelector(".endPage").classList.remove("hidden");
-    //     document.querySelector(".endButton").addEventListener("click", () => {
-    //         window.close() 
-    //     });
-    // }
+    if(nDropedItems === 5) {
+        document.querySelector(".gamePage").classList.add("hidden");
+        document.querySelector(".endPage").classList.remove("hidden");
+        document.querySelector(".endButton").addEventListener("click", () => {
+            window.close() 
+        });
+    }
 }
 
 // for all of the options - dont delete
