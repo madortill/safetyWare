@@ -89,7 +89,7 @@ body {
 .gameCharcter {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0.5vw;
     width: 60vw;
 }
 
@@ -210,14 +210,14 @@ body {
 .vestDrop {
     width: 31vw;
     height: 18vh;
-    top: 11.5vh;
+    top: 11vh;
     right: 14vw;
 }
 
 .kneePadsDrop {
     width: 31vw;
     height: 9vh;
-    top: 43vh;
+    top: 42vh;
     right: 20vw;
 }
 
@@ -231,14 +231,14 @@ body {
 .leftGloveDrop {
     width: 20vw;
     height: 10vh;
-    top: 29vh;
+    top: 28vh;
     right: 42vw;
 }
 
 .rightGloveDrop {
     width: 18vw;
     height: 11vh;
-    top: 31.2vh;
+    top: 30.2vh;
     right: 0;
 }
 
