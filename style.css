@@ -1,0 +1,303 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    direction: rtl; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+body {
+    background-image: url("./assets/images/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: amatic;
+    src: url("./assets/fonts/Amatica/AmaticSC-Bold.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url("./assets/fonts/rubik/Rubik-Regular.ttf");
+    font-weight: 200;
+}
+
+
+.headline {
+    font-family: "amatic";
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.openCharcter {
+    width: 32vh;
+    position: absolute;
+    bottom: 3vh;
+    left: 0;
+}
+
+.endCharater {
+    width: 23vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.startButton {
+    width: 10vh;
+    position: absolute;
+    bottom: 3vh;
+    left: 0;
+}
+
+.aboutButton { 
+    width: 8vw;
+    position: absolute;
+    right: 2vw;
+}
+
+/* game page ------------------------------------------------------------------*/
+
+.instractions {
+    background-color: #1a1a1a;
+    opacity: 0.9;
+    color:white;
+    font-family: rubik;
+    padding: 1em;
+    font-size: 1.2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gameContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 17vh;
+    width :100%;
+}
+
+.gameCharcter {
+    width: 60vw;
+}
+
+.item {
+    width: 11vw;
+    margin: auto;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.itemContainer {
+    background-color: #1a1a1a;
+    opacity: 0.7;
+    border-radius: 1em;
+    position: relative;
+    width: 20vw;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lock {
+    width:5vw;
+    position: absolute;
+    top: 8vh;
+    left: 15vw;
+}
+
+/* complete the sentence----------------------------------------------------------------- */
+.completeSentenceContainer, .endContainer{
+    background-color: hsla(0, 0%, 10%, 0.7);
+    border-radius: 1em;
+    color:white;
+    font-family: rubik;
+    padding: 1em;
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sentence {
+    display: inline-block;
+    padding: 0.4em;
+  
+}
+
+.sentenceContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* line-height: 2; */
+}
+
+.dropDown {
+    display: inline-block;
+}
+
+.checkButtonSentence, .endButton{
+    background-color: hsla(0, 0%, 10%, 0.9);
+    padding: 0.4em;
+    border-radius: 0.7em;
+    width: 15vw;
+    height: 3vh;
+    text-align: center;
+}
+
+.dropDownArrow {
+    width: 4vw;
+    padding: 0 0.4em;
+}
+
+.dropDownTitle {
+    display: flex;
+    align-items: center;
+    padding: 0.4em;
+    background-color: hsla(0, 0%,0%);
+    border-radius: 0.7em;
+}
+
+.dropDownItem {
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 0.4em;
+    border-radius: 0.7em;
+}
+
+/* .containerDropDown {
+    position: absolute;
+} */
+
+/* sort to groups ------------------------------------------------------------------------------*/
+.drop {
+    position: absolute;
+}
+
+.vestDrop {
+    width: 31vw;
+    height: 18vh;
+    top: 16vh;
+    right: 18vw;
+}
+
+.kneePadsDrop {
+    width: 31vw;
+    height: 9vh;
+    top: 47vh;
+    right: 24vw;
+}
+
+.helmetDrop {
+    width: 19vw;
+    height: 11vh;
+    top: 4vh;
+    right: 24.5vw;
+}
+
+.leftGloveDrop {
+    width: 20vw;
+    height: 10vh;
+    top: 33vh;
+    right: 46.5vw;
+}
+
+.rightGloveDrop {
+    width: 18vw;
+    height: 11vh;
+    top: 35.2vh;
+    right: 2.2vw;
+}
+
+.vestItem.droped {
+    width: 28vw;
+}
+
+.kneePadsItem.droped {
+    width: 18vw;
+}
+
+.helmetItem.droped {
+    width: 16vw;
+}
+
+.leftGloveItem.droped {
+    width: 10vw;
+    padding-top: 3vh;
+    padding-right: 5vw;
+}
+
+.rightGloveItem.droped {
+    width: 7vw;
+    padding-top: 3vh;
+    padding-right: 5vw;
+}
+
+/* tools -----------------------------------------------------------------------------*/
+.darkScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg {
+    direction: rtl; 
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centerX {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.centerItem {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flexCenter {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lineHeight {
+    line-height: 2;
+}
+
+.hidden {
+    display: none;
+}
