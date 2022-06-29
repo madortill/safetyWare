@@ -23,7 +23,7 @@ const addContentToSentence = (event) => {
         El("div", {cls: `dropDown`},
             El("div", {cls: `dropDownTitle`, listeners: {click : controlDropDown}},
             El("div", {cls: "dropDownChoice"}, "בחר/י..."),
-            El("img",{attributes: { class: "dropDownArrow", src: "./assets/images/dropDownClose.svg"}}),
+            El("img",{attributes: { class: "dropDownArrow", src: "./assets/images/dropdownClose.svg"}}),
              ),
             El("div", {cls: `containerDropDown`})),
         El("div", {cls: `sentence`}, DATA.completeSentence[currentItem][nSentenceCurrentQuestion].sentence[1]),
@@ -53,7 +53,7 @@ Description: */
 const selectAnswer = (event) => {
     let currAns = event.currentTarget.classList[2];
     strSentenceCurrentAns = event.currentTarget.classList[1];
-    document.querySelector(".dropDownArrow").setAttribute("src", "./assets/images/dropDownClose.svg");
+    document.querySelector(".dropDownArrow").setAttribute("src", "./assets/images/dropdownClose.svg");
     document.querySelector(`.dropDownChoice`).innerHTML = DATA.completeSentence[currentItem][nSentenceCurrentQuestion].dropDownAns[currAns];
     document.querySelector(`.containerDropDown`).innerHTML = ``;
     document.querySelector(`.dropDownTitle`).addEventListener("click", controlDropDown);
