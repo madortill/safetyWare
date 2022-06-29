@@ -88,10 +88,8 @@ body {
 
 .gameCharcter {
     position: absolute;
-    width: 61vw;
-    height: 62vh;
-    top: 6vh;
-    right: 6.5vw;
+    top: 0;
+    right: 0;
     width: 60vw;
 }
 
@@ -107,7 +105,7 @@ body {
     justify-content: space-between;
     height: 70vh;
     position: absolute;
-    top: 4vh;
+    top: 0;
     left: 9vw;
 }
 
@@ -259,7 +257,7 @@ body {
 .leftGloveItem.droped {
     width: 10vw;
     padding-top: 3vh;
-    padding-right: 5vw;
+    padding-right: 6vw;
 }
 
 .rightGloveItem.droped {
