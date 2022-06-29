@@ -231,14 +231,14 @@ body {
 .leftGloveDrop {
     width: 20vw;
     height: 10vh;
-    top: 28vh;
+    top: 29vh;
     right: 42vw;
 }
 
 .rightGloveDrop {
     width: 18vw;
     height: 11vh;
-    top: 30.2vh;
+    top: 31.2vh;
     right: 0;
 }
 
@@ -256,13 +256,11 @@ body {
 
 .leftGloveItem.droped {
     width: 10vw;
-    padding-top: 3vh;
     padding-right: 6vw;
 }
 
 .rightGloveItem.droped {
     width: 7vw;
-    padding-top: 3vh;
     padding-right: 2vw;
 }
 
