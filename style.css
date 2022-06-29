@@ -87,6 +87,11 @@ body {
 }
 
 .gameCharcter {
+    position: absolute;
+    width: 61vw;
+    height: 62vh;
+    top: 6vh;
+    right: 6.5vw;
     width: 60vw;
 }
 
@@ -101,6 +106,9 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 70vh;
+    position: absolute;
+    top: 4vh;
+    left: 9vw;
 }
 
 .itemContainer {
@@ -192,7 +200,7 @@ body {
     position: absolute;
     width: 61vw;
     height: 62vh;
-    top: 4vh;
+    top: 6vh;
     right: 6vw;
 }
 
