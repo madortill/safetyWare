@@ -168,15 +168,22 @@ const DATA = {
 --------------------------------------------------------------
 Description: */
 window.addEventListener("load", () => { 
-    /* for multiple and binary questions--------------------------*/
-    // arrMultipleQuestions = shuffle(arrThisLomdaData);
-    // addContentToQuestion();
-    /* for complete the sentence----------------------------------*/
-    // addContentToSentence();
-    /* for sort to groups-----------------------------------------*/
-    // createItems();
+    document.querySelector(`.loader`).classList.add(`fade`);
     document.querySelector(".startButton").addEventListener("click", startGame);
+    document.querySelector(`.aboutButton`).addEventListener("click", handelAboutPage);
 });
+
+/* handelAboutPage
+--------------------------------------------------------------
+Description: */
+const handelAboutPage = () => {
+    document.querySelector(".openingPage").classList.add("hidden");
+    document.querySelector(".aboutPage").classList.remove("hidden");
+    document.querySelector(".aboutPage .xIcon").addEventListener("click", () => {
+      document.querySelector(".openingPage").classList.remove("hidden");
+      document.querySelector(".aboutPage").classList.add("hidden");
+    })
+}
 
 /* startGame
 --------------------------------------------------------------
