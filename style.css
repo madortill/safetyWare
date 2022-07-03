@@ -256,7 +256,7 @@ body {
 .kneePadsDrop {
     width: 30vw;
     height: 9vh;
-    top: 41vh;
+    top: 40vh;
     right: 14vw;
 }
 
@@ -270,14 +270,14 @@ body {
 .leftGloveDrop {
     width: 28vw;
     height: 15vh;
-    top: 24vh;
+    top: 22vh;
     right: 39vw;
 }
 
 .rightGloveDrop {
     width: 26vw;
     height: 14vh;
-    top: 26.2vh;
+    top: 24.2vh;
     right: -7vw;
 }
 
