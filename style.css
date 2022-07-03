@@ -249,35 +249,35 @@ body {
 .vestDrop {
     width: 35vw;
     height: 22vh;
-    top: 9vh;
+    top: 10vh;
     right: 11vw;
 }
 
 .kneePadsDrop {
     width: 30vw;
     height: 9vh;
-    top: 42vh;
+    top: 43vh;
     right: 14vw;
 }
 
 .helmetDrop {
     width: 24vw;
     height: 17vh;
-    top: -2.5vh;
+    top: -2vh;
     right: 16vw;
 }
 
 .leftGloveDrop {
     width: 28vw;
     height: 15vh;
-    top: 27vh;
+    top: 28vh;
     right: 39vw;
 }
 
 .rightGloveDrop {
     width: 26vw;
     height: 14vh;
-    top: 29.2vh;
+    top: 30.2vh;
     right: -7vw;
 }
 
