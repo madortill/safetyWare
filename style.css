@@ -270,14 +270,14 @@ body {
 .leftGloveDrop {
     width: 28vw;
     height: 15vh;
-    top: 24vh;
+    top: 24.5vh;
     right: 39vw;
 }
 
 .rightGloveDrop {
     width: 26vw;
     height: 14vh;
-    top: 26.2vh;
+    top: 26vh;
     right: -7vw;
 }
 
